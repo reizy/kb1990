@@ -1,0 +1,3535 @@
+{
+  "cell" : {
+    "x" : 56,
+    "y" : 6,
+    "map" : 0
+  },
+  "hero" : {
+    "@type" : "ru.reizy.kb1990.model.base.Player",
+    "army" : [ "ARCHMAGES", "DEMONS", "DRAGONS", "VAMPIRES" ],
+    "armyCount" : [ 34, 35, 13, 50 ],
+    "leadership" : 14538,
+    "attack" : 1.0,
+    "defence" : 1.0,
+    "attackSkill" : 1.0,
+    "money" : 25216,
+    "rank" : 1,
+    "name" : "mag",
+    "tempLeadership" : 2000,
+    "tempMovePoints" : 196,
+    "spellPower" : 22,
+    "spellCapacity" : 33,
+    "travelMagicBook" : {
+      "spells" : {
+        "BridgeSpell" : 0,
+        "TimeStopSpell" : 11,
+        "FindVillain" : 0,
+        "CastleGate" : 5,
+        "TownGate" : 6,
+        "InstantArmySpell" : 0,
+        "RaiseControlSpell" : 0
+      }
+    },
+    "battleMagicBook" : {
+      "spells" : {
+        "CloneSpell" : 1,
+        "TeleportSpell" : 4,
+        "FireballSpell" : 1,
+        "LightingBoltSpell" : 4,
+        "FreezeSpell" : 3,
+        "RessurectSpell" : 3,
+        "TurnUndeadSpell" : 3
+      }
+    },
+    "commission" : 13852,
+    "boatRent" : 500,
+    "type" : "SORCERESS",
+    "artifacts" : [ {
+      "@type" : "ru.reizy.kb1990.model.base.artifact.ArticlesOfNobility",
+      "pasleX" : 0,
+      "pasleY" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.base.artifact.SwordOfProwess",
+      "pasleX" : 0,
+      "pasleY" : 0
+    }, {
+      "@type" : "ru.reizy.kb1990.model.base.artifact.AmuletOfAugmentation",
+      "pasleX" : 4,
+      "pasleY" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.base.artifact.RingOfHeroism",
+      "pasleX" : 0,
+      "pasleY" : 4
+    }, {
+      "@type" : "ru.reizy.kb1990.model.base.artifact.ShieldOfProtection",
+      "pasleX" : 2,
+      "pasleY" : 0
+    } ],
+    "killedVillains" : [ {
+      "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+      "id" : 1,
+      "pasleX" : 1,
+      "pasleY" : 4,
+      "bounty" : 6000,
+      "castleCell" : null,
+      "army" : [ ],
+      "armyCount" : [ ],
+      "relocations" : 1,
+      "attack" : 1.0,
+      "attackSkill" : 0.0,
+      "defence" : 1.0,
+      "leadership" : 65000,
+      "money" : 0,
+      "rank" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+      "id" : 2,
+      "pasleX" : 4,
+      "pasleY" : 3,
+      "bounty" : 7000,
+      "castleCell" : null,
+      "army" : [ ],
+      "armyCount" : [ ],
+      "relocations" : 1,
+      "attack" : 1.0,
+      "attackSkill" : 0.0,
+      "defence" : 1.0,
+      "leadership" : 65000,
+      "money" : 0,
+      "rank" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+      "id" : 4,
+      "pasleX" : 4,
+      "pasleY" : 1,
+      "bounty" : 9000,
+      "castleCell" : null,
+      "army" : [ ],
+      "armyCount" : [ ],
+      "relocations" : 1,
+      "attack" : 1.0,
+      "attackSkill" : 0.0,
+      "defence" : 1.0,
+      "leadership" : 65000,
+      "money" : 0,
+      "rank" : 4
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+      "id" : 0,
+      "pasleX" : 3,
+      "pasleY" : 4,
+      "bounty" : 5000,
+      "castleCell" : null,
+      "army" : [ ],
+      "armyCount" : [ ],
+      "relocations" : 1,
+      "attack" : 1.0,
+      "attackSkill" : 0.0,
+      "defence" : 1.0,
+      "leadership" : 65000,
+      "money" : 0,
+      "rank" : 0
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+      "id" : 3,
+      "pasleX" : 0,
+      "pasleY" : 3,
+      "bounty" : 8000,
+      "castleCell" : null,
+      "army" : [ ],
+      "armyCount" : [ ],
+      "relocations" : 1,
+      "attack" : 1.0,
+      "attackSkill" : 0.0,
+      "defence" : 1.0,
+      "leadership" : 65000,
+      "money" : 700,
+      "rank" : 3
+    } ],
+    "contractCell" : null,
+    "magicActive" : true,
+    "difficulty" : "IMPOSIBLE",
+    "castles" : [ {
+      "cell" : {
+        "x" : 9,
+        "y" : 18,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "TROLLS" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 58,
+        "y" : 23,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "DWARVES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 52,
+        "y" : 57,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "TROLLS" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 6,
+        "y" : 57,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "WOLVES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 54,
+        "y" : 6,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 49,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 57,
+        "y" : 58,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES", "GNOMES" ],
+        "armyCount" : [ 1, 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 30,
+        "y" : 27,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "PIKEMEN" ],
+        "armyCount" : [ 46 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 24,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "SPRITES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 11,
+        "y" : 30,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "GNOMES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 36,
+        "y" : 49,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ORCS", "GIANTS", "DRUIDS" ],
+        "armyCount" : [ 26, 10, 25 ]
+      },
+      "isEnemy" : false
+    } ],
+    "unitsKilledCount" : 0
+  },
+  "ship" : {
+    "cell" : {
+      "x" : 55,
+      "y" : 20,
+      "map" : 0
+    }
+  },
+  "maps" : [ {
+    "id" : 0,
+    "castles" : [ {
+      "cell" : {
+        "x" : 58,
+        "y" : 23,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "DWARVES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 6,
+        "y" : 57,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "WOLVES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 57,
+        "y" : 58,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES", "GNOMES" ],
+        "armyCount" : [ 1, 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 54,
+        "y" : 6,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 49,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ZOMBIES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 30,
+        "y" : 27,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "PIKEMEN" ],
+        "armyCount" : [ 46 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 24,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "SPRITES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 11,
+        "y" : 30,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "GNOMES" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 40,
+        "y" : 5,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 5,
+        "pasleX" : 0,
+        "pasleY" : 1,
+        "bounty" : 10000,
+        "castleCell" : {
+          "x" : 40,
+          "y" : 5,
+          "map" : 0
+        },
+        "army" : [ "GHOSTS", "SPRITES", "KNIGHTS", "ARCHMAGES", "ARCHMAGES" ],
+        "armyCount" : [ 10, 250, 10, 4, 4 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "rank" : 5
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 40,
+        "y" : 41,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "SKELETONS", "ZOMBIES", "WOLVES", "SPRITES" ],
+        "armyCount" : [ 10, 5, 5, 5, 20 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 775,
+        "rank" : 1
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 36,
+        "y" : 49,
+        "map" : 0
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "ORCS", "GIANTS", "DRUIDS" ],
+        "armyCount" : [ 26, 10, 25 ]
+      },
+      "isEnemy" : false
+    } ],
+    "towns" : [ {
+      "cell" : {
+        "x" : 46,
+        "y" : 35,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "TimeStopSpell" ]
+    }, {
+      "cell" : {
+        "x" : 17,
+        "y" : 44,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "CloneSpell" ]
+    }, {
+      "cell" : {
+        "x" : 14,
+        "y" : 27,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "TurnUndeadSpell" ]
+    }, {
+      "cell" : {
+        "x" : 57,
+        "y" : 5,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FireballSpell" ]
+    }, {
+      "cell" : {
+        "x" : 51,
+        "y" : 28,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FreezeSpell" ]
+    }, {
+      "cell" : {
+        "x" : 50,
+        "y" : 13,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "TeleportSpell" ]
+    }, {
+      "cell" : {
+        "x" : 29,
+        "y" : 12,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "CastleGate" ]
+    }, {
+      "cell" : {
+        "x" : 17,
+        "y" : 21,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "BridgeSpell" ]
+    }, {
+      "cell" : {
+        "x" : 12,
+        "y" : 3,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FreezeSpell" ]
+    }, {
+      "cell" : {
+        "x" : 41,
+        "y" : 58,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "RessurectSpell" ]
+    }, {
+      "cell" : {
+        "x" : 38,
+        "y" : 50,
+        "map" : 0
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "CastleGate" ]
+    } ],
+    "heroes" : [ {
+      "cell" : {
+        "x" : 48,
+        "y" : 12,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "ZOMBIES", "SPRITES" ],
+        "armyCount" : [ 5, 5, 20 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 375,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 54,
+        "y" : 32,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ZOMBIES", "PEASANTS", "SKELETONS" ],
+        "armyCount" : [ 5, 10, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 275,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 23,
+        "y" : 11,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "WOLVES", "SKELETONS", "ORCS" ],
+        "armyCount" : [ 5, 5, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 387,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 37,
+        "y" : 55,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "GNOMES", "SKELETONS" ],
+        "armyCount" : [ 5, 10, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 587,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 26,
+        "y" : 6,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "PEASANTS", "SKELETONS", "WOLVES" ],
+        "armyCount" : [ 10, 5, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 250,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 12,
+        "y" : 16,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "GNOMES", "ELVES" ],
+        "armyCount" : [ 5, 10, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 987,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 37,
+        "y" : 60,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "SKELETONS", "SPRITES" ],
+        "armyCount" : [ 5, 5, 20 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 750,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 60,
+        "y" : 39,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "TROLLS", "WOLVES" ],
+        "armyCount" : [ 10, 2, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1400,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 8,
+        "y" : 20,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "GNOMES", "PEASANTS" ],
+        "armyCount" : [ 5, 10, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 537,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 32,
+        "y" : 17,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "SPRITES", "ORCS" ],
+        "armyCount" : [ 10, 20, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 637,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 15,
+        "y" : 58,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "SPRITES", "PEASANTS" ],
+        "armyCount" : [ 5, 20, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 300,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 43,
+        "y" : 12,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "WOLVES", "PEASANTS", "ORCS" ],
+        "armyCount" : [ 5, 10, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 337,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 18,
+        "y" : 13,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "GNOMES", "PEASANTS" ],
+        "armyCount" : [ 5, 10, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 850,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 33,
+        "y" : 6,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "GNOMES", "NOMADS" ],
+        "armyCount" : [ 5, 10, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1000,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 7,
+        "y" : 17,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "PEASANTS", "SKELETONS" ],
+        "armyCount" : [ 10, 10, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 450,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 11,
+        "y" : 24,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DWARVES", "WOLVES", "GNOMES" ],
+        "armyCount" : [ 8, 5, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1100,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 60,
+        "y" : 36,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "SKELETONS", "WOLVES" ],
+        "armyCount" : [ 5, 5, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 700,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 6,
+        "y" : 10,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "WOLVES", "GNOMES" ],
+        "armyCount" : [ 5, 5, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 500,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 3,
+        "y" : 20,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "SPRITES", "ZOMBIES" ],
+        "armyCount" : [ 5, 20, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 375,
+        "rank" : 1
+      }
+    }, {
+      "cell" : {
+        "x" : 49,
+        "y" : 52,
+        "map" : 0
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "ZOMBIES", "ORCS" ],
+        "armyCount" : [ 10, 5, 5 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 612,
+        "rank" : 1
+      }
+    } ],
+    "treasures" : [ {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 18,
+        "y" : 11,
+        "map" : 0
+      },
+      "power" : 0,
+      "unit" : "WOLVES",
+      "count" : 5
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 43,
+        "y" : 13,
+        "map" : 0
+      },
+      "power" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.FullMapTreasure",
+      "cell" : {
+        "x" : 40,
+        "y" : 15,
+        "map" : 0
+      },
+      "power" : 0
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 11,
+        "y" : 22,
+        "map" : 0
+      },
+      "power" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellPowerIncreasesTreasure",
+      "cell" : {
+        "x" : 29,
+        "y" : 7,
+        "map" : 0
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 6,
+        "y" : 17,
+        "map" : 0
+      },
+      "power" : 4
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 41,
+        "y" : 24,
+        "map" : 0
+      },
+      "power" : 8
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellCapacityIncreasesTreasure",
+      "cell" : {
+        "x" : 10,
+        "y" : 10,
+        "map" : 0
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellCapacityIncreasesTreasure",
+      "cell" : {
+        "x" : 30,
+        "y" : 31,
+        "map" : 0
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 25,
+        "y" : 6,
+        "map" : 0
+      },
+      "power" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 27,
+        "y" : 11,
+        "map" : 0
+      },
+      "power" : 850,
+      "spells" : {
+        "CastleGate" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RichMineralDepositsTreasure",
+      "cell" : {
+        "x" : 8,
+        "y" : 21,
+        "map" : 0
+      },
+      "power" : 28
+    } ],
+    "residences" : [ {
+      "unit" : "WOLVES",
+      "cell" : {
+        "x" : 27,
+        "y" : 55,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "SPRITES",
+      "cell" : {
+        "x" : 39,
+        "y" : 29,
+        "map" : 0
+      },
+      "count" : 200
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 33,
+        "y" : 3,
+        "map" : 0
+      },
+      "count" : 200
+    }, {
+      "unit" : "PEASANTS",
+      "cell" : {
+        "x" : 24,
+        "y" : 57,
+        "map" : 0
+      },
+      "count" : 250
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 6,
+        "y" : 39,
+        "map" : 0
+      },
+      "count" : 198
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 55,
+        "y" : 17,
+        "map" : 0
+      },
+      "count" : 250
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 23,
+        "y" : 35,
+        "map" : 0
+      },
+      "count" : 248
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 8,
+        "y" : 3,
+        "map" : 0
+      },
+      "count" : 250
+    }, {
+      "unit" : "ZOMBIES",
+      "cell" : {
+        "x" : 50,
+        "y" : 4,
+        "map" : 0
+      },
+      "count" : 99
+    }, {
+      "unit" : "SPRITES",
+      "cell" : {
+        "x" : 15,
+        "y" : 19,
+        "map" : 0
+      },
+      "count" : 199
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 17,
+        "y" : 41,
+        "map" : 0
+      },
+      "count" : 181
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 57,
+        "y" : 40,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "ZOMBIES",
+      "cell" : {
+        "x" : 10,
+        "y" : 9,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "ZOMBIES",
+      "cell" : {
+        "x" : 59,
+        "y" : 60,
+        "map" : 0
+      },
+      "count" : 99
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 57,
+        "y" : 8,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 20,
+        "y" : 4,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 48,
+        "y" : 30,
+        "map" : 0
+      },
+      "count" : 200
+    }, {
+      "unit" : "SKELETONS",
+      "cell" : {
+        "x" : 45,
+        "y" : 59,
+        "map" : 0
+      },
+      "count" : 150
+    }, {
+      "unit" : "SKELETONS",
+      "cell" : {
+        "x" : 22,
+        "y" : 3,
+        "map" : 0
+      },
+      "count" : 150
+    }, {
+      "unit" : "WOLVES",
+      "cell" : {
+        "x" : 56,
+        "y" : 49,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 35,
+        "y" : 20,
+        "map" : 0
+      },
+      "count" : 250
+    }, {
+      "unit" : "SPRITES",
+      "cell" : {
+        "x" : 29,
+        "y" : 19,
+        "map" : 0
+      },
+      "count" : 200
+    }, {
+      "unit" : "ZOMBIES",
+      "cell" : {
+        "x" : 20,
+        "y" : 49,
+        "map" : 0
+      },
+      "count" : 99
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 46,
+        "y" : 44,
+        "map" : 0
+      },
+      "count" : 250
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 36,
+        "y" : 60,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "WOLVES",
+      "cell" : {
+        "x" : 7,
+        "y" : 39,
+        "map" : 0
+      },
+      "count" : 99
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 10,
+        "y" : 50,
+        "map" : 0
+      },
+      "count" : 100
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 52,
+        "y" : 17,
+        "map" : 0
+      },
+      "count" : 99
+    } ],
+    "bridges" : [ {
+      "cell" : {
+        "x" : 36,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 34,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 40,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : true
+    }, {
+      "cell" : {
+        "x" : 19,
+        "y" : 33,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 17,
+        "y" : 33,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 40,
+        "y" : 35,
+        "map" : 0
+      },
+      "vertical" : true
+    }, {
+      "cell" : {
+        "x" : 21,
+        "y" : 34,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 23,
+        "y" : 34,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 35,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 33,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 20,
+        "y" : 33,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 37,
+        "y" : 36,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 18,
+        "y" : 33,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 16,
+        "y" : 33,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 20,
+        "y" : 34,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 34,
+        "map" : 0
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 24,
+        "y" : 34,
+        "map" : 0
+      },
+      "vertical" : false
+    } ]
+  }, {
+    "id" : 1,
+    "castles" : [ {
+      "cell" : {
+        "x" : 47,
+        "y" : 6,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "SKELETONS", "OGRES", "ORCS", "DWARVES" ],
+        "armyCount" : [ 10, 10, 4, 15, 14 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 5012,
+        "rank" : 2
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 42,
+        "y" : 56,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 7,
+        "pasleX" : 1,
+        "pasleY" : 0,
+        "bounty" : 14000,
+        "castleCell" : {
+          "x" : 42,
+          "y" : 56,
+          "map" : 1
+        },
+        "army" : [ "ARCHMAGES", "DRUIDS", "SPRITES", "PIKEMEN", "ELVES" ],
+        "armyCount" : [ 30, 10, 300, 35, 30 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 7
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 41,
+        "y" : 34,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 8,
+        "pasleX" : 3,
+        "pasleY" : 3,
+        "bounty" : 16000,
+        "castleCell" : {
+          "x" : 41,
+          "y" : 34,
+          "map" : 1
+        },
+        "army" : [ "OGRES", "TROLLS", "GIANTS", "WOLVES", "ORCS" ],
+        "armyCount" : [ 20, 10, 5, 80, 150 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 8
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 19,
+        "y" : 19,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 9,
+        "pasleX" : 2,
+        "pasleY" : 3,
+        "bounty" : 18000,
+        "castleCell" : {
+          "x" : 19,
+          "y" : 19,
+          "map" : 1
+        },
+        "army" : [ "ZOMBIES", "SKELETONS", "GHOSTS", "VAMPIRES", "DEMONS" ],
+        "armyCount" : [ 100, 500, 30, 16, 8 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1500,
+        "rank" : 9
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 30,
+        "y" : 18,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 6,
+        "pasleX" : 3,
+        "pasleY" : 0,
+        "bounty" : 12000,
+        "castleCell" : {
+          "x" : 30,
+          "y" : 18,
+          "map" : 1
+        },
+        "army" : [ "ARCHERS", "PIKEMEN", "MILITIA", "CAVALRY", "KNIGHTS" ],
+        "armyCount" : [ 20, 20, 100, 15, 15 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 6
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 25,
+        "y" : 39,
+        "map" : 1
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "NOMADS", "BARBARIANS", "GHOSTS", "DWARVES" ],
+        "armyCount" : [ 10, 8, 4, 4, 14 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 6250,
+        "rank" : 2
+      },
+      "isEnemy" : true
+    } ],
+    "towns" : [ {
+      "cell" : {
+        "x" : 58,
+        "y" : 4,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "RaiseControlSpell" ]
+    }, {
+      "cell" : {
+        "x" : 58,
+        "y" : 60,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "TurnUndeadSpell" ]
+    }, {
+      "cell" : {
+        "x" : 58,
+        "y" : 33,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FireballSpell" ]
+    }, {
+      "cell" : {
+        "x" : 3,
+        "y" : 37,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "LightingBoltSpell" ]
+    }, {
+      "cell" : {
+        "x" : 34,
+        "y" : 23,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "CloneSpell" ]
+    }, {
+      "cell" : {
+        "x" : 3,
+        "y" : 8,
+        "map" : 1
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "BridgeSpell" ]
+    } ],
+    "heroes" : [ {
+      "cell" : {
+        "x" : 9,
+        "y" : 15,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ARCHMAGES", "ELVES", "NOMADS" ],
+        "armyCount" : [ 2, 10, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3400,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 42,
+        "y" : 10,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "BARBARIANS", "DWARVES", "GNOMES" ],
+        "armyCount" : [ 4, 14, 25 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 4000,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 24,
+        "y" : 59,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "SKELETONS", "NOMADS", "BARBARIANS" ],
+        "armyCount" : [ 10, 8, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2900,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 41,
+        "y" : 32,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "GHOSTS", "GNOMES" ],
+        "armyCount" : [ 15, 4, 25 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2112,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 15,
+        "y" : 59,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "TROLLS", "DWARVES", "PEASANTS" ],
+        "armyCount" : [ 4, 14, 20 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3850,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 52,
+        "y" : 10,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "TROLLS", "OGRES" ],
+        "armyCount" : [ 10, 4, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 4500,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 49,
+        "y" : 22,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DWARVES", "ORCS", "NOMADS" ],
+        "armyCount" : [ 14, 15, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3512,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 52,
+        "y" : 40,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "NOMADS", "GNOMES" ],
+        "armyCount" : [ 10, 8, 25 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2950,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 19,
+        "y" : 12,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GHOSTS", "ELVES", "GIANTS" ],
+        "armyCount" : [ 4, 10, 2 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3800,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 53,
+        "y" : 15,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "TROLLS", "NOMADS", "ELVES" ],
+        "armyCount" : [ 4, 8, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 4200,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 21,
+        "y" : 45,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "NOMADS", "ELVES", "BARBARIANS" ],
+        "armyCount" : [ 8, 10, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3700,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 19,
+        "y" : 25,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "NOMADS", "GHOSTS", "SKELETONS" ],
+        "armyCount" : [ 8, 4, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2200,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 30,
+        "y" : 30,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "BARBARIANS", "NOMADS", "ORCS" ],
+        "armyCount" : [ 4, 8, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3262,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 10,
+        "y" : 40,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "GHOSTS", "ELVES" ],
+        "armyCount" : [ 15, 4, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2362,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 47,
+        "y" : 28,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "TROLLS", "GHOSTS", "NOMADS" ],
+        "armyCount" : [ 4, 4, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 4000,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 38,
+        "y" : 19,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "GNOMES", "DWARVES" ],
+        "armyCount" : [ 10, 25, 14 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3500,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 22,
+        "y" : 6,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GNOMES", "ORCS", "OGRES" ],
+        "armyCount" : [ 25, 15, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2812,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 55,
+        "y" : 58,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "DWARVES", "SKELETONS" ],
+        "armyCount" : [ 10, 14, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2950,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 8,
+        "y" : 57,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "WOLVES", "NOMADS", "SKELETONS" ],
+        "armyCount" : [ 15, 8, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1700,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 58,
+        "y" : 46,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "OGRES", "NOMADS", "GHOSTS" ],
+        "armyCount" : [ 4, 8, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3500,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 55,
+        "y" : 4,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ORCS", "ZOMBIES", "NOMADS" ],
+        "armyCount" : [ 15, 10, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2012,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 33,
+        "y" : 52,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ARCHMAGES", "WOLVES", "SKELETONS" ],
+        "armyCount" : [ 2, 15, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1700,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 25,
+        "y" : 34,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "WOLVES", "ELVES", "OGRES" ],
+        "armyCount" : [ 15, 10, 4 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2800,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 56,
+        "y" : 33,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "NOMADS", "DWARVES" ],
+        "armyCount" : [ 10, 8, 14 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3950,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 4,
+        "y" : 46,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "ZOMBIES", "SKELETONS" ],
+        "armyCount" : [ 10, 10, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1450,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 10,
+        "y" : 34,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "ELVES", "SKELETONS", "NOMADS" ],
+        "armyCount" : [ 10, 10, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 2400,
+        "rank" : 2
+      }
+    }, {
+      "cell" : {
+        "x" : 9,
+        "y" : 26,
+        "map" : 1
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "NOMADS", "DWARVES", "ORCS" ],
+        "armyCount" : [ 8, 14, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 3512,
+        "rank" : 2
+      }
+    } ],
+    "treasures" : [ {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellCapacityIncreasesTreasure",
+      "cell" : {
+        "x" : 19,
+        "y" : 21,
+        "map" : 1
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RichMineralDepositsTreasure",
+      "cell" : {
+        "x" : 21,
+        "y" : 31,
+        "map" : 1
+      },
+      "power" : 70
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 56,
+        "y" : 9,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "GNOMES",
+      "count" : 25
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 43,
+        "y" : 12,
+        "map" : 1
+      },
+      "power" : 1300,
+      "spells" : {
+        "CastleGate" : 1,
+        "TeleportSpell" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 11,
+        "y" : 19,
+        "map" : 1
+      },
+      "power" : 28
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.FullMapTreasure",
+      "cell" : {
+        "x" : 29,
+        "y" : 56,
+        "map" : 1
+      },
+      "power" : 0
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RichMineralDepositsTreasure",
+      "cell" : {
+        "x" : 53,
+        "y" : 6,
+        "map" : 1
+      },
+      "power" : 54
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 54,
+        "y" : 19,
+        "map" : 1
+      },
+      "power" : 1650,
+      "spells" : {
+        "CloneSpell" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 38,
+        "y" : 47,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "SKELETONS",
+      "count" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.ArtifactTreasure",
+      "cell" : {
+        "x" : 46,
+        "y" : 58,
+        "map" : 1
+      },
+      "power" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 51,
+        "y" : 35,
+        "map" : 1
+      },
+      "power" : 36
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 15,
+        "y" : 26,
+        "map" : 1
+      },
+      "power" : 2000,
+      "spells" : {
+        "LightingBoltSpell" : 2,
+        "TeleportSpell" : 2,
+        "TimeStopSpell" : 2
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 57,
+        "y" : 54,
+        "map" : 1
+      },
+      "power" : 26
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 31,
+        "y" : 4,
+        "map" : 1
+      },
+      "power" : 12
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 50,
+        "y" : 3,
+        "map" : 1
+      },
+      "power" : 34
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellCapacityIncreasesTreasure",
+      "cell" : {
+        "x" : 60,
+        "y" : 27,
+        "map" : 1
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 40,
+        "y" : 46,
+        "map" : 1
+      },
+      "power" : 16
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellPowerIncreasesTreasure",
+      "cell" : {
+        "x" : 38,
+        "y" : 25,
+        "map" : 1
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 53,
+        "y" : 29,
+        "map" : 1
+      },
+      "power" : 12
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellPowerIncreasesTreasure",
+      "cell" : {
+        "x" : 60,
+        "y" : 29,
+        "map" : 1
+      },
+      "power" : 1
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 59,
+        "y" : 18,
+        "map" : 1
+      },
+      "power" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RichMineralDepositsTreasure",
+      "cell" : {
+        "x" : 50,
+        "y" : 52,
+        "map" : 1
+      },
+      "power" : 82
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 46,
+        "y" : 23,
+        "map" : 1
+      },
+      "power" : 1250,
+      "spells" : {
+        "RessurectSpell" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 36,
+        "y" : 55,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "NOMADS",
+      "count" : 8
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.GoldTreasure",
+      "cell" : {
+        "x" : 44,
+        "y" : 15,
+        "map" : 1
+      },
+      "power" : 36
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 20,
+        "y" : 3,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "ORCS",
+      "count" : 15
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 11,
+        "y" : 37,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "DWARVES",
+      "count" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 8,
+        "y" : 47,
+        "map" : 1
+      },
+      "power" : 1250,
+      "spells" : {
+        "RaiseControlSpell" : 1,
+        "CastleGate" : 1,
+        "TeleportSpell" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 27,
+        "y" : 46,
+        "map" : 1
+      },
+      "power" : 1,
+      "unit" : "ELVES",
+      "count" : 10
+    } ],
+    "residences" : [ {
+      "unit" : "DRUIDS",
+      "cell" : {
+        "x" : 11,
+        "y" : 51,
+        "map" : 1
+      },
+      "count" : 25
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 54,
+        "y" : 56,
+        "map" : 1
+      },
+      "count" : 200
+    }, {
+      "unit" : "SKELETONS",
+      "cell" : {
+        "x" : 47,
+        "y" : 31,
+        "map" : 1
+      },
+      "count" : 150
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 24,
+        "y" : 18,
+        "map" : 1
+      },
+      "count" : 200
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 8,
+        "y" : 13,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 59,
+        "y" : 7,
+        "map" : 1
+      },
+      "count" : 250
+    }, {
+      "unit" : "GNOMES",
+      "cell" : {
+        "x" : 45,
+        "y" : 7,
+        "map" : 1
+      },
+      "count" : 250
+    }, {
+      "unit" : "BARBARIANS",
+      "cell" : {
+        "x" : 37,
+        "y" : 38,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 32,
+        "y" : 55,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "SKELETONS",
+      "cell" : {
+        "x" : 14,
+        "y" : 46,
+        "map" : 1
+      },
+      "count" : 150
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 39,
+        "y" : 13,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 8,
+        "y" : 10,
+        "map" : 1
+      },
+      "count" : 195
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 42,
+        "y" : 20,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "ZOMBIES",
+      "cell" : {
+        "x" : 35,
+        "y" : 13,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 14,
+        "y" : 53,
+        "map" : 1
+      },
+      "count" : 200
+    }, {
+      "unit" : "WOLVES",
+      "cell" : {
+        "x" : 19,
+        "y" : 56,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 12,
+        "y" : 11,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "GHOSTS",
+      "cell" : {
+        "x" : 16,
+        "y" : 40,
+        "map" : 1
+      },
+      "count" : 25
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 51,
+        "y" : 49,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 12,
+        "y" : 19,
+        "map" : 1
+      },
+      "count" : 200
+    }, {
+      "unit" : "ORCS",
+      "cell" : {
+        "x" : 41,
+        "y" : 3,
+        "map" : 1
+      },
+      "count" : 200
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 27,
+        "y" : 31,
+        "map" : 1
+      },
+      "count" : 25
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 23,
+        "y" : 40,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 16,
+        "y" : 46,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 12,
+        "y" : 27,
+        "map" : 1
+      },
+      "count" : 100
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 11,
+        "y" : 11,
+        "map" : 1
+      },
+      "count" : 100
+    } ],
+    "bridges" : [ {
+      "cell" : {
+        "x" : 32,
+        "y" : 34,
+        "map" : 1
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 31,
+        "y" : 30,
+        "map" : 1
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 32,
+        "y" : 30,
+        "map" : 1
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 31,
+        "y" : 34,
+        "map" : 1
+      },
+      "vertical" : false
+    }, {
+      "cell" : {
+        "x" : 30,
+        "y" : 34,
+        "map" : 1
+      },
+      "vertical" : false
+    } ]
+  }, {
+    "id" : 2,
+    "castles" : [ {
+      "cell" : {
+        "x" : 43,
+        "y" : 27,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 12,
+        "pasleX" : 1,
+        "pasleY" : 2,
+        "bounty" : 30000,
+        "castleCell" : {
+          "x" : 43,
+          "y" : 27,
+          "map" : 2
+        },
+        "army" : [ "BARBARIANS", "GIANTS", "GNOMES", "NOMADS", "PEASANTS" ],
+        "armyCount" : [ 45, 20, 300, 100, 750 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 12
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 41,
+        "y" : 36,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 11,
+        "pasleX" : 3,
+        "pasleY" : 2,
+        "bounty" : 25000,
+        "castleCell" : {
+          "x" : 41,
+          "y" : 36,
+          "map" : 2
+        },
+        "army" : [ "DRAGONS", "GIANTS", "OGRES", "ORCS", "GNOMES" ],
+        "armyCount" : [ 5, 30, 30, 200, 200 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 11
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 9,
+        "y" : 18,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "TROLLS" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 52,
+        "y" : 57,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.base.ArmyHolder",
+        "army" : [ "TROLLS" ],
+        "armyCount" : [ 1 ]
+      },
+      "isEnemy" : false
+    }, {
+      "cell" : {
+        "x" : 11,
+        "y" : 46,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 13,
+        "pasleX" : 3,
+        "pasleY" : 1,
+        "bounty" : 35000,
+        "castleCell" : {
+          "x" : 11,
+          "y" : 46,
+          "map" : 2
+        },
+        "army" : [ "PIKEMEN", "ARCHERS", "CAVALRY", "KNIGHTS", "DRAGONS" ],
+        "armyCount" : [ 110, 45, 85, 60, 5 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 13
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 45,
+        "y" : 6,
+        "map" : 2
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 10,
+        "pasleX" : 1,
+        "pasleY" : 3,
+        "bounty" : 20000,
+        "castleCell" : {
+          "x" : 45,
+          "y" : 6,
+          "map" : 2
+        },
+        "army" : [ "ZOMBIES", "SKELETONS", "GHOSTS", "VAMPIRES", "DEMONS" ],
+        "armyCount" : [ 220, 640, 50, 32, 10 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1500,
+        "rank" : 10
+      },
+      "isEnemy" : true
+    } ],
+    "towns" : [ {
+      "cell" : {
+        "x" : 49,
+        "y" : 8,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FreezeSpell" ]
+    }, {
+      "cell" : {
+        "x" : 13,
+        "y" : 60,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "FindVillain" ]
+    }, {
+      "cell" : {
+        "x" : 13,
+        "y" : 7,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "TownGate" ]
+    }, {
+      "cell" : {
+        "x" : 9,
+        "y" : 39,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "RaiseControlSpell" ]
+    }, {
+      "cell" : {
+        "x" : 57,
+        "y" : 57,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "FreezeSpell" ]
+    }, {
+      "cell" : {
+        "x" : 5,
+        "y" : 50,
+        "map" : 2
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "TurnUndeadSpell" ]
+    } ],
+    "heroes" : [ ],
+    "treasures" : [ {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 34,
+        "y" : 30,
+        "map" : 2
+      },
+      "power" : 2,
+      "unit" : "DWARVES",
+      "count" : 20
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 29,
+        "y" : 27,
+        "map" : 2
+      },
+      "power" : 2,
+      "unit" : "GHOSTS",
+      "count" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.ArtifactTreasure",
+      "cell" : {
+        "x" : 20,
+        "y" : 6,
+        "map" : 2
+      },
+      "power" : 5
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 8,
+        "y" : 39,
+        "map" : 2
+      },
+      "power" : 2,
+      "unit" : "BARBARIANS",
+      "count" : 10
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.ArtifactTreasure",
+      "cell" : {
+        "x" : 51,
+        "y" : 40,
+        "map" : 2
+      },
+      "power" : 4
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 38,
+        "y" : 21,
+        "map" : 2
+      },
+      "power" : 2,
+      "unit" : "GIANTS",
+      "count" : 5
+    } ],
+    "residences" : [ {
+      "unit" : "ELVES",
+      "cell" : {
+        "x" : 8,
+        "y" : 30,
+        "map" : 2
+      },
+      "count" : 100
+    }, {
+      "unit" : "GHOSTS",
+      "cell" : {
+        "x" : 7,
+        "y" : 57,
+        "map" : 2
+      },
+      "count" : 25
+    }, {
+      "unit" : "DEMONS",
+      "cell" : {
+        "x" : 15,
+        "y" : 33,
+        "map" : 2
+      },
+      "count" : 0
+    }, {
+      "unit" : "DWARVES",
+      "cell" : {
+        "x" : 34,
+        "y" : 32,
+        "map" : 2
+      },
+      "count" : 100
+    }, {
+      "unit" : "GHOSTS",
+      "cell" : {
+        "x" : 31,
+        "y" : 4,
+        "map" : 2
+      },
+      "count" : 25
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 32,
+        "y" : 56,
+        "map" : 2
+      },
+      "count" : 200
+    }, {
+      "unit" : "NOMADS",
+      "cell" : {
+        "x" : 53,
+        "y" : 25,
+        "map" : 2
+      },
+      "count" : 100
+    }, {
+      "unit" : "DRUIDS",
+      "cell" : {
+        "x" : 47,
+        "y" : 27,
+        "map" : 2
+      },
+      "count" : 0
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 25,
+        "y" : 21,
+        "map" : 2
+      },
+      "count" : 25
+    }, {
+      "unit" : "BARBARIANS",
+      "cell" : {
+        "x" : 8,
+        "y" : 42,
+        "map" : 2
+      },
+      "count" : 100
+    }, {
+      "unit" : "ARCHMAGES",
+      "cell" : {
+        "x" : 53,
+        "y" : 23,
+        "map" : 2
+      },
+      "count" : 0
+    }, {
+      "unit" : "VAMPIRES",
+      "cell" : {
+        "x" : 45,
+        "y" : 45,
+        "map" : 2
+      },
+      "count" : 18
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 6,
+        "y" : 48,
+        "map" : 2
+      },
+      "count" : 200
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 5,
+        "y" : 17,
+        "map" : 2
+      },
+      "count" : 24
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 46,
+        "y" : 55,
+        "map" : 2
+      },
+      "count" : 24
+    } ],
+    "bridges" : [ ]
+  }, {
+    "id" : 3,
+    "castles" : [ {
+      "cell" : {
+        "x" : 41,
+        "y" : 12,
+        "map" : 3
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 15,
+        "pasleX" : 1,
+        "pasleY" : 1,
+        "bounty" : 45000,
+        "castleCell" : {
+          "x" : 41,
+          "y" : 12,
+          "map" : 3
+        },
+        "army" : [ "DRAGONS", "CAVALRY", "DEMONS", "KNIGHTS", "ARCHMAGES" ],
+        "armyCount" : [ 10, 200, 50, 250, 60 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 0,
+        "rank" : 15
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 46,
+        "y" : 43,
+        "map" : 3
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 16,
+        "pasleX" : 2,
+        "pasleY" : 2,
+        "bounty" : 50000,
+        "castleCell" : {
+          "x" : 46,
+          "y" : 43,
+          "map" : 3
+        },
+        "army" : [ "DRAGONS", "DRAGONS", "DRAGONS", "DEMONS", "VAMPIRES" ],
+        "armyCount" : [ 23, 24, 100, 100, 102 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1500,
+        "rank" : 16
+      },
+      "isEnemy" : true
+    }, {
+      "cell" : {
+        "x" : 17,
+        "y" : 39,
+        "map" : 3
+      },
+      "armyHolder" : {
+        "@type" : "ru.reizy.kb1990.model.globalmap.villains.Villain",
+        "id" : 14,
+        "pasleX" : 2,
+        "pasleY" : 1,
+        "bounty" : 40000,
+        "castleCell" : {
+          "x" : 17,
+          "y" : 39,
+          "map" : 3
+        },
+        "army" : [ "VAMPIRES", "ARCHMAGES", "DEMONS", "GNOMES", "PEASANTS" ],
+        "armyCount" : [ 62, 100, 30, 500, 5000 ],
+        "relocations" : 1,
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 1500,
+        "rank" : 14
+      },
+      "isEnemy" : true
+    } ],
+    "towns" : [ {
+      "cell" : {
+        "x" : 7,
+        "y" : 3,
+        "map" : 3
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.battle.BattleSpells", "TeleportSpell" ]
+    }, {
+      "cell" : {
+        "x" : 9,
+        "y" : 60,
+        "map" : 3
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "InstantArmySpell" ]
+    }, {
+      "cell" : {
+        "x" : 58,
+        "y" : 48,
+        "map" : 3
+      },
+      "spell" : [ "ru.reizy.kb1990.model.base.magic.globalmap.TravelSpells", "BridgeSpell" ]
+    } ],
+    "heroes" : [ {
+      "cell" : {
+        "x" : 36,
+        "y" : 29,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DEMONS", "ARCHMAGES", "DRUIDS" ],
+        "armyCount" : [ 8, 8, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 20300,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 27,
+        "y" : 23,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DEMONS", "DRAGONS", "GIANTS" ],
+        "armyCount" : [ 8, 2, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 27000,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 59,
+        "y" : 59,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "VAMPIRES", "DRAGONS", "DRUIDS" ],
+        "armyCount" : [ 27, 2, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 27250,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 31,
+        "y" : 26,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "TROLLS", "GIANTS", "ARCHMAGES" ],
+        "armyCount" : [ 15, 10, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 22300,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 59,
+        "y" : 4,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GIANTS", "DRUIDS", "OGRES" ],
+        "armyCount" : [ 10, 10, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 19125,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 59,
+        "y" : 47,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GHOSTS", "OGRES", "TROLLS" ],
+        "armyCount" : [ 20, 15, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 17125,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 8,
+        "y" : 59,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DEMONS", "DRAGONS", "VAMPIRES" ],
+        "armyCount" : [ 8, 2, 27 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 35750,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 28,
+        "y" : 39,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DEMONS", "ELVES", "ARCHMAGES" ],
+        "armyCount" : [ 8, 50, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 21800,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 33,
+        "y" : 45,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DEMONS", "GIANTS", "DRUIDS" ],
+        "armyCount" : [ 8, 10, 10 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 25500,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 39,
+        "y" : 47,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GIANTS", "VAMPIRES", "OGRES" ],
+        "armyCount" : [ 10, 27, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 34375,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 39,
+        "y" : 35,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "VAMPIRES", "GHOSTS", "OGRES" ],
+        "armyCount" : [ 27, 20, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 28375,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 3,
+        "y" : 35,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "GIANTS", "DRAGONS", "TROLLS" ],
+        "armyCount" : [ 10, 2, 15 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 22500,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 60,
+        "y" : 32,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DRUIDS", "BARBARIANS", "DEMONS" ],
+        "armyCount" : [ 10, 20, 8 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 23000,
+        "rank" : 4
+      }
+    }, {
+      "cell" : {
+        "x" : 5,
+        "y" : 19,
+        "map" : 3
+      },
+      "hero" : {
+        "@type" : "ru.reizy.kb1990.model.base.Hero",
+        "army" : [ "DRAGONS", "TROLLS", "ELVES" ],
+        "armyCount" : [ 2, 15, 50 ],
+        "attack" : 1.0,
+        "attackSkill" : 0.0,
+        "defence" : 1.0,
+        "leadership" : 65000,
+        "money" : 17500,
+        "rank" : 4
+      }
+    } ],
+    "treasures" : [ {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.SpellPowerIncreasesTreasure",
+      "cell" : {
+        "x" : 27,
+        "y" : 50,
+        "map" : 3
+      },
+      "power" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomSpellTreasure",
+      "cell" : {
+        "x" : 11,
+        "y" : 52,
+        "map" : 3
+      },
+      "power" : 2750,
+      "spells" : {
+        "RessurectSpell" : 1,
+        "FireballSpell" : 1
+      }
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RandomUnitTreasure",
+      "cell" : {
+        "x" : 42,
+        "y" : 11,
+        "map" : 3
+      },
+      "power" : 3,
+      "unit" : "DRAGONS",
+      "count" : 2
+    }, {
+      "@type" : "ru.reizy.kb1990.model.globalmap.treasure.RichMineralDepositsTreasure",
+      "cell" : {
+        "x" : 29,
+        "y" : 50,
+        "map" : 3
+      },
+      "power" : 270
+    } ],
+    "residences" : [ {
+      "unit" : "GIANTS",
+      "cell" : {
+        "x" : 13,
+        "y" : 30,
+        "map" : 3
+      },
+      "count" : 50
+    }, {
+      "unit" : "GHOSTS",
+      "cell" : {
+        "x" : 33,
+        "y" : 23,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "ARCHMAGES",
+      "cell" : {
+        "x" : 30,
+        "y" : 32,
+        "map" : 3
+      },
+      "count" : 24
+    }, {
+      "unit" : "VAMPIRES",
+      "cell" : {
+        "x" : 29,
+        "y" : 39,
+        "map" : 3
+      },
+      "count" : 46
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 22,
+        "y" : 45,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "TROLLS",
+      "cell" : {
+        "x" : 45,
+        "y" : 26,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "DEMONS",
+      "cell" : {
+        "x" : 43,
+        "y" : 32,
+        "map" : 3
+      },
+      "count" : 18
+    }, {
+      "unit" : "GHOSTS",
+      "cell" : {
+        "x" : 42,
+        "y" : 37,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "GIANTS",
+      "cell" : {
+        "x" : 28,
+        "y" : 45,
+        "map" : 3
+      },
+      "count" : 50
+    }, {
+      "unit" : "DRUIDS",
+      "cell" : {
+        "x" : 23,
+        "y" : 19,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "GIANTS",
+      "cell" : {
+        "x" : 35,
+        "y" : 45,
+        "map" : 3
+      },
+      "count" : 50
+    }, {
+      "unit" : "OGRES",
+      "cell" : {
+        "x" : 42,
+        "y" : 28,
+        "map" : 3
+      },
+      "count" : 200
+    }, {
+      "unit" : "DEMONS",
+      "cell" : {
+        "x" : 23,
+        "y" : 45,
+        "map" : 3
+      },
+      "count" : 22
+    }, {
+      "unit" : "DRAGONS",
+      "cell" : {
+        "x" : 33,
+        "y" : 33,
+        "map" : 3
+      },
+      "count" : 18
+    }, {
+      "unit" : "DRAGONS",
+      "cell" : {
+        "x" : 18,
+        "y" : 34,
+        "map" : 3
+      },
+      "count" : 25
+    }, {
+      "unit" : "VAMPIRES",
+      "cell" : {
+        "x" : 51,
+        "y" : 9,
+        "map" : 3
+      },
+      "count" : 50
+    } ],
+    "bridges" : [ ]
+  } ],
+  "openedMaps" : [ 0, 1, 2, 3 ],
+  "fullMaps" : [ 2, 3 ],
+  "avaibleTowns" : [ {
+    "x" : 46,
+    "y" : 35,
+    "map" : 0
+  }, {
+    "x" : 13,
+    "y" : 60,
+    "map" : 2
+  }, {
+    "x" : 9,
+    "y" : 39,
+    "map" : 2
+  }, {
+    "x" : 14,
+    "y" : 27,
+    "map" : 0
+  }, {
+    "x" : 3,
+    "y" : 37,
+    "map" : 1
+  }, {
+    "x" : 34,
+    "y" : 23,
+    "map" : 1
+  }, {
+    "x" : 5,
+    "y" : 50,
+    "map" : 2
+  }, {
+    "x" : 51,
+    "y" : 28,
+    "map" : 0
+  }, {
+    "x" : 3,
+    "y" : 8,
+    "map" : 1
+  }, {
+    "x" : 49,
+    "y" : 8,
+    "map" : 2
+  }, {
+    "x" : 12,
+    "y" : 3,
+    "map" : 0
+  }, {
+    "x" : 57,
+    "y" : 57,
+    "map" : 2
+  }, {
+    "x" : 41,
+    "y" : 58,
+    "map" : 0
+  }, {
+    "x" : 38,
+    "y" : 50,
+    "map" : 0
+  }, {
+    "x" : 13,
+    "y" : 7,
+    "map" : 2
+  }, {
+    "x" : 17,
+    "y" : 44,
+    "map" : 0
+  }, {
+    "x" : 57,
+    "y" : 5,
+    "map" : 0
+  }, {
+    "x" : 50,
+    "y" : 13,
+    "map" : 0
+  }, {
+    "x" : 17,
+    "y" : 21,
+    "map" : 0
+  }, {
+    "x" : 7,
+    "y" : 3,
+    "map" : 3
+  } ],
+  "avaibleCastles" : [ {
+    "x" : 41,
+    "y" : 36,
+    "map" : 2
+  }, {
+    "x" : 9,
+    "y" : 18,
+    "map" : 2
+  }, {
+    "x" : 58,
+    "y" : 23,
+    "map" : 0
+  }, {
+    "x" : 52,
+    "y" : 57,
+    "map" : 2
+  }, {
+    "x" : 11,
+    "y" : 46,
+    "map" : 2
+  }, {
+    "x" : 6,
+    "y" : 57,
+    "map" : 0
+  }, {
+    "x" : 54,
+    "y" : 6,
+    "map" : 0
+  }, {
+    "x" : 45,
+    "y" : 6,
+    "map" : 2
+  }, {
+    "x" : 22,
+    "y" : 24,
+    "map" : 0
+  }, {
+    "x" : 11,
+    "y" : 30,
+    "map" : 0
+  }, {
+    "x" : 40,
+    "y" : 5,
+    "map" : 0
+  }, {
+    "x" : 36,
+    "y" : 49,
+    "map" : 0
+  }, {
+    "x" : 22,
+    "y" : 49,
+    "map" : 0
+  }, {
+    "x" : 57,
+    "y" : 58,
+    "map" : 0
+  }, {
+    "x" : 17,
+    "y" : 39,
+    "map" : 3
+  }, {
+    "x" : 43,
+    "y" : 27,
+    "map" : 2
+  }, {
+    "x" : 30,
+    "y" : 27,
+    "map" : 0
+  }, {
+    "x" : 46,
+    "y" : 43,
+    "map" : 3
+  }, {
+    "x" : 40,
+    "y" : 41,
+    "map" : 0
+  } ],
+  "pasleAimCell" : {
+    "x" : 15,
+    "y" : 22,
+    "map" : 0
+  },
+  "time" : 7542,
+  "maxWeek" : 39,
+  "siegeWeapon" : true,
+  "flying" : false,
+  "unhiddens" : {
+    "0" : [ [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false ], [ true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ] ],
+    "1" : [ [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ] ],
+    "2" : [ [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true ], [ false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true ], [ false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, false ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, false, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ] ],
+    "3" : [ [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, true, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ], [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ] ]
+  }
+}

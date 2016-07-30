@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="lifeBarVisible"
+        android:summary="Включает отображение уровня жизни в режиме битвы"
+        android:title="Отображать HP" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="unitCountVisible"
+        android:summary="Включает отображение числа войнов в режиме битвы"
+        android:title="Отображать число войнов" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="moraleVisible"
+        android:summary="Включает отображение уровня морали цветом в режиме битвы"
+        android:title="Отображать мораль" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="exitButtonVisible"
+        android:summary="Включает отображение кнопки &apos;Выход&apos; в левом верхнем углу в поселениях"
+        android:title="Отображать кнопку &apos;Выход&apos;" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="richMinimap"
+        android:summary="Включает отображение активных элементов миникарты разными цветами"
+        android:title="Подробная миникарта" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="spellOnTownPortalVisible"
+        android:summary="Отображает доступное для покупки в городе заклинание при телепортации"
+        android:title="Отображать заклинание" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/battleGridVisibleNames"
+        android:entryValues="@array/battleGridVisibleValues"
+        android:key="battleGridVisible"
+        android:summary="Значение определяет вид подсветки доступных действий в бою (0-минимум)"
+        android:title="Вид сетки" >
+    </ListPreference>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="useExtLog"
+        android:summary="Записывает логи в файлы в DCIM/kb1990/logs"
+        android:title="Включить логирование" >
+    </CheckBoxPreference>
+</PreferenceScreen>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_gray"
+    android:columnCount="2"
+    android:rowCount="1" >
+
+    <LinearLayout
+        android:id="@+id/base"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:orientation="vertical"
+        android:useDefaultMargins="false" >
+
+        <!-- row 0 -->
+
+        <LinearLayout
+            android:id="@+id/line_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/slot_0"
+                style="@style/GlobalFieldCell"
+                android:layout_gravity="left|top"
+                android:contentDescription="@string/gField"
+                android:scaleType="fitXY"
+                android:src="@drawable/transparent" />
+
+            <TextView
+                android:id="@+id/slot_0_info"
+                style="@style/ArmySlotInfo"
+                android:text="@string/defaults" />
+        </LinearLayout>
+        <!-- row 1 -->
+
+        <LinearLayout
+            android:id="@+id/line_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/slot_1"
+                style="@style/GlobalFieldCell"
+                android:layout_gravity="left|top"
+                android:contentDescription="@string/gField"
+                android:scaleType="fitXY"
+                android:src="@drawable/transparent" />
+
+            <TextView
+                android:id="@+id/slot_1_info"
+                style="@style/ArmySlotInfo"
+                android:text="@string/defaults" />
+        </LinearLayout>
+        <!-- row 2 -->
+
+        <LinearLayout
+            android:id="@+id/line_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/slot_2"
+                style="@style/GlobalFieldCell"
+                android:layout_gravity="left|top"
+                android:contentDescription="@string/gField"
+                android:scaleType="fitXY"
+                android:src="@drawable/transparent" />
+
+            <TextView
+                android:id="@+id/slot_2_info"
+                style="@style/ArmySlotInfo"
+                android:text="@string/defaults" />
+        </LinearLayout>
+        <!-- row 3 -->
+
+        <LinearLayout
+            android:id="@+id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/slot_3"
+                style="@style/GlobalFieldCell"
+                android:layout_gravity="left|top"
+                android:contentDescription="@string/gField"
+                android:scaleType="fitXY"
+                android:src="@drawable/transparent" />
+
+            <TextView
+                android:id="@+id/slot_3_info"
+                style="@style/ArmySlotInfo"
+                android:text="@string/defaults" />
+        </LinearLayout>
+        <!-- row 4 -->
+
+        <LinearLayout
+            android:id="@+id/line_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/slot_4"
+                style="@style/GlobalFieldCell"
+                android:layout_gravity="left|top"
+                android:contentDescription="@string/gField"
+                android:scaleType="fitXY"
+                android:src="@drawable/transparent" />
+
+            <TextView
+                android:id="@+id/slot_4_info"
+                style="@style/ArmySlotInfo"
+                android:text="@string/defaults" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ButtonBar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_army_exit"
+            style="@style/ActionButton"
+            android:text="@string/exit" />
+
+        <ImageView
+            android:id="@+id/remove"
+            style="@style/ActionButton"
+            android:layout_height="@dimen/cell_height_4"
+            android:contentDescription="@string/defaults"
+            android:src="@drawable/trash_empty" />
+    </LinearLayout>
+
+</GridLayout>

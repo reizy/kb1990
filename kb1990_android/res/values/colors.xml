@@ -1,0 +1,8 @@
+<resources>
+
+    <drawable name="blue">#770000ff</drawable>
+
+    <color name="color_gray">#ccc</color>
+    <color name="color_black">#000</color>
+
+</resources>

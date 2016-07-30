@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">О username! \n Твой путь начинается у ворот моего замка. \n Верни же мой скипетр, пока не стало слишком поздно!\n...</string>
+    <string name="app_name">kb1990</string>
+    <string name="defaults">defaults</string>
+    <string name="action_settings">Settings</string>
+    <string name="fly"></string>
+    <string name="land"></string>
+    <string name="exit">x</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="N">N</string>
+    <string name="search"></string>
+    <string name="weakend"></string>
+    <string name="menu"></string>
+    <string name="map"></string>
+    <string name="army"></string>
+    <string name="gField">Cell of global map to view</string>
+    <string name="battle_wait"></string>
+    <string name="battle_pass"></string>
+    <string name="battle_magic"></string>
+    <string name="battle_army"></string>
+    <string name="battle_giveUp"></string>
+    <string name="back">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="buy_1">1</string>
+    <string name="buy_2">2</string>
+    <string name="buy_5">5</string>
+    <string name="buy_10">10</string>
+    <string name="buy_25">25</string>
+    <string name="buy_99">99</string>
+    <string name="buy_XX">XX</string>
+    <string name="plus">+</string>
+    <string name="counter000">000\n</string>
+    <string name="battle_magic_spell">Волшебное заклинание</string>
+    <string name="travel_magic">M</string>
+
+</resources>

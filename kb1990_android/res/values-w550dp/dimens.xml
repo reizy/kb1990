@@ -1,0 +1,35 @@
+<resources>
+
+<!-- kb1990 -->
+<!-- width 546 -->
+<!-- height362 -->
+<!-- cell_width -->
+<dimen name="cell_width">83dp</dimen>
+<dimen name="cell_width_2">166dp</dimen>
+<dimen name="cell_width_3">249dp</dimen>
+<dimen name="cell_width_4">332dp</dimen>
+<dimen name="cell_width_5">415dp</dimen>
+<dimen name="cell_width_6">498dp</dimen>
+ <!-- cell_height -->
+<dimen name="cell_height">59dp</dimen>
+<dimen name="cell_height_2">118dp</dimen>
+<dimen name="cell_height_3">176dp</dimen>
+<dimen name="cell_height_4">235dp</dimen>
+<dimen name="cell_height_5">294dp</dimen>
+<dimen name="cell_height_05">29dp</dimen>
+<!-- VillainLogo -->
+<dimen name="villain_Logo_width">106dp</dimen>
+<dimen name="villain_Logo_height">82dp</dimen>
+<dimen name="villain_Logo_padding">23dp</dimen>
+<!-- font -->
+<dimen name="font">16dp</dimen>
+<dimen name="font_2">14dp</dimen>
+<dimen name="char_text_left">6dp</dimen>
+<dimen name="global_text_left">12dp</dimen>
+<dimen name="global_text_top">2dp</dimen>
+<!-- bar -->
+<dimen name="bar_width">48dp</dimen>
+<dimen name="btn_min_height">52dp</dimen>
+<dimen name="btn_min_margin_top">6dp</dimen>
+<dimen name="bar_magic_padding">5dp</dimen>
+</resources>

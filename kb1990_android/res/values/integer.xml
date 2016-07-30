@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- animationTime -->
+    <integer name="animationTimeInfoPanel">250</integer>
+    <integer name="animationTimePasle">250</integer>
+    <integer name="animationTimeUnit">250</integer>
+    <integer name="animationTimePlayer">250</integer>
+  
+</resources>

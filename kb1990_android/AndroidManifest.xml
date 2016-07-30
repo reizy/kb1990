@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.reizy.kb1990"
+    android:versionCode="1"
+    android:versionName="1.0.7b" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.GlobalMapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.town.TownActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.residence.ResidenceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.castle.CastleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.battle.BattleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.kingcastle.KingCastleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.army.ArmyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.villain.VillainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.pasle.PasleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.character.CharacterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.CastleListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.globalmap.TownListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.MainMenyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="ru.reizy.kb1990.view.android.KbOptionsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+    </application>
+
+</manifest>

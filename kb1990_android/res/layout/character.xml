@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_gray"
+    android:columnCount="2"
+    android:rowCount="1" >
+
+    <ImageView
+        android:id="@+id/character_bg"
+        style="@style/FullBackground"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:contentDescription="@string/gField"
+        android:scaleType="fitXY"
+        android:src="@drawable/character_background" />
+
+    <GridLayout
+        android:layout_column="0"
+        android:layout_row="0"
+        android:columnCount="6"
+        android:orientation="vertical"
+        android:rowCount="5"
+        android:useDefaultMargins="false" >
+
+        <!-- row 0 -->
+
+        <ImageView
+            android:id="@+id/character_avatar"
+            style="@style/CharacterAvatar"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="0"
+            android:layout_rowSpan="3"
+            android:contentDescription="@string/gField"
+            android:src="@drawable/character_sorceress" />
+
+        <TextView
+            android:id="@+id/character_text"
+            style="@style/CharacterText"
+            android:layout_column="2"
+            android:layout_columnSpan="4"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:layout_rowSpan="3"
+            android:contentDescription="@string/gField"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:id="@+id/field_0_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_1_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_2_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="2"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_3_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="3"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_4_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_5_3"
+            style="@style/TransparentFieldCell"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <!-- row 4 -->
+
+        <ImageView
+            android:id="@+id/field_0_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_1_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_2_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="2"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_3_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="3"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_4_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:id="@+id/field_5_4"
+            style="@style/TransparentFieldCell"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:contentDescription="@string/gField"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent" />
+        <!-- info -->
+    </GridLayout>
+
+    <LinearLayout
+        style="@style/ButtonBar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="@style/ActionButton"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+</GridLayout>

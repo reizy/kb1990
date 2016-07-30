@@ -1,0 +1,193 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme, dependent on API level. This theme is replaced -->
+    <!-- by AppBaseTheme from res/values-vXX/styles.xml on newer devices. -->
+
+    <style name="AppBaseTheme" parent="android:style/Theme.Black.NoTitleBar">            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.</style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Black.NoTitleBar.Fullscreen">
+        
+    </style>
+
+    <style name="GlobalLayout" parent="AppBaseTheme">
+        <item name="android:background">@color/color_gray</item>
+    </style>
+
+    <style name="GlobalFieldCell" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width</item>
+        <item name="android:layout_height">@dimen/cell_height</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@drawable/textures_grass</item>
+        <item name="android:layout_gravity">left|top</item>
+    </style>
+
+    <style name="VillainLogo" parent="GlobalFieldCell">
+        <item name="android:layout_width">@dimen/villain_Logo_width</item>
+        <item name="android:layout_height">@dimen/villain_Logo_height</item>
+        <item name="android:paddingLeft">@dimen/villain_Logo_padding</item>
+        <item name="android:paddingTop">@dimen/villain_Logo_padding</item>
+    </style>
+
+    <style name="Minimap" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width_5</item>
+        <item name="android:layout_height">@dimen/cell_height_5</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="TransparentFieldCell" parent="GlobalFieldCell">
+        <item name="android:background">@drawable/transparent</item>
+    </style>
+
+    <style name="FullBackground" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width_6</item>
+        <item name="android:layout_height">@dimen/cell_height_5</item>
+        <item name="android:background">@drawable/transparent</item>
+    </style>
+
+    <style name="CharacterAvatar" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width_2</item>
+        <item name="android:layout_height">@dimen/cell_height_3</item>
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:layout_gravity">left|top</item>
+    </style>
+
+    <style name="CharacterText" parent="CharacterAvatar">
+        <item name="android:layout_width">@dimen/cell_width_4</item>
+        <item name="android:paddingLeft">@dimen/char_text_left</item>
+        <item name="android:textSize">@dimen/font_2</item>
+    </style>
+
+    <style name="GlobalFieldInfo" parent="AppBaseTheme">
+
+        <!-- 48x34;72x51;96x68. -->
+        <item name="android:layout_width">@dimen/cell_width_5</item>
+        <item name="android:layout_height">@dimen/cell_height_2</item>
+        <item name="android:background">@drawable/info_5_2</item>
+        <item name="android:src">@drawable/transparent</item>
+        <item name="android:paddingLeft">@dimen/global_text_left</item>
+        <item name="android:paddingRight">@dimen/global_text_left</item>
+        <item name="android:paddingTop">@dimen/global_text_top</item>
+        <item name="android:textSize">@dimen/font</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="GlobalFieldInfoFull" parent="GlobalFieldInfo">
+        <item name="android:layout_width">@dimen/cell_width_6</item>
+        <item name="android:layout_height">@dimen/cell_height_5</item>
+    </style>
+
+    <style name="ArmySlotInfo" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width_5</item>
+        <item name="android:layout_height">@dimen/cell_height</item>
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_columnSpan">5</item>
+        <item name="android:gravity">center_vertical|fill_horizontal</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@drawable/textures_blank</item>
+        <item name="android:textSize">@dimen/font</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:paddingLeft">@dimen/global_text_left</item>
+    </style>
+
+    <style name="ResidenceBg" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/cell_width_5</item>
+        <item name="android:layout_height">@dimen/cell_height_3</item>
+        <item name="android:src">@drawable/transparent</item>
+    </style>
+
+    <style name="BattleBg" parent="AppBaseTheme">
+
+        <!-- 48x34;72x51;96x68. -->
+        <item name="android:layout_width">@dimen/cell_width_6</item>
+        <item name="android:layout_height">@dimen/cell_height_5</item>
+        <item name="android:src">@drawable/transparent</item>
+    </style>
+
+    <style name="BattleMaskCell" parent="GlobalFieldCell">
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:src">@drawable/transparent</item>
+    </style>
+
+    <style name="BuyCountButton" parent="android:attr/buttonBarButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/font</item>
+    </style>
+
+    <style name="ButtonBar" parent="android:attr/buttonBarStyle">
+        <item name="android:layout_width">@dimen/bar_width</item>
+        <item name="android:background">@color/color_gray</item>
+        <item name="android:layout_height">@dimen/cell_height_5</item>
+    </style>
+
+    <style name="ActionIconButton" parent="AppBaseTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_gravity">left|top</item>
+        <item name="android:paddingBottom">@dimen/char_text_left</item>
+        <item name="android:paddingLeft">@dimen/char_text_left</item>
+        <item name="android:paddingRight">@dimen/char_text_left</item>
+        <item name="android:paddingTop">@dimen/char_text_left</item>
+    </style>
+
+    <style name="ActionButton" parent="android:attr/buttonBarButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/btn_min_height</item>
+        <item name="android:layout_marginTop">@dimen/btn_min_margin_top</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/font</item>
+    </style>
+
+    <style name="MagicPanel" parent="android:attr/buttonBarStyle">
+        <item name="android:layout_width">@dimen/cell_width_4</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+        <item name="android:padding">@dimen/bar_magic_padding</item>
+    </style>
+
+    <style name="MagicButton" parent="android:attr/buttonBarButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cell_height_05</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textSize">@dimen/font</item>
+    </style>
+
+    <style name="DaysCounter" parent="AppBaseTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:gravity">top|right</item>
+        <item name="android:textSize">@dimen/font</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="LogPanel" parent="android:attr/buttonBarStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cell_height</item>
+        <item name="android:background">@color/color_gray</item>
+        <item name="android:paddingBottom">@dimen/bar_magic_padding</item>
+    </style>
+
+    <style name="LogText" parent="android:attr/buttonBarStyle">
+        <item name="android:layout_width">@dimen/cell_width_6</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_gray</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+</resources>

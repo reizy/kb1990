@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="battleGridVisibleNames">
+        <item>Отключена</item>
+        <item>Уголки</item>
+        <item>Рамка</item>
+        <item>Штрихи</item>
+    </string-array>
+    <string-array name="battleGridVisibleValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+				towns.add(new String[64][64]);
+				towns.get(0)[29][19] = "Ривертон";// Riverton
+				towns.get(0)[50][13] = "Нур";// Nyre
+				towns.get(0)[14][27] = "Квилн-Поинт";// Quiln Point
+				towns.get(0)[51][28] = "Ксоктан"; // Xoctan
+				towns.get(0)[46][35] = "Фьерд";// Fjord
+				towns.get(0)[57][05] = "Исла-Виста"; // Isla Vista
+				towns.get(0)[17][21] = "Царский рай";// King's Haven
+				towns.get(0)[12][03] = "Хантервиль"; // Hunterville
+				towns.get(0)[17][44] = "Приозерный"; // Lakeview
+				towns.get(0)[41][58] = "Бэйсайд"; // Bayside
+				towns.get(0)[38][50] = "Конец Пути"; // Path's End
+			}
+			{
+				castles.add(new String[64][64]);
+				castles.get(0)[06][57] = "1";// Quiln Point
+				castles.get(0)[11][07] = "King Maximus";//
+				castles.get(0)[11][30] = "3";//
+				castles.get(0)[21][49] = "4";//
+				castles.get(0)[22][24] = "5";//
+				castles.get(0)[30][27] = "6";//
+				castles.get(0)[36][49] = "7";//
+				castles.get(0)[40][41] = "8";//
+				castles.get(0)[54][06] = "9";//
+				castles.get(0)[57][58] = "10";//
+				castles.get(0)[58][23] = "11";//
+
+			}
